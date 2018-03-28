@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="bitmapShadow">
+        <attr name="src" format="reference"/>
+        <attr name="shadowDx" format="integer"/>
+        <attr name="shadowDy" format="integer"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowRadius" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="photoClip">
+        <attr name="mysrc" format="reference"/>
+        <attr name="format" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="rectangle" value="1"/>
+        </attr>
+        <attr name="myradius" format="integer" />
+    </declare-styleable>
+</resources>

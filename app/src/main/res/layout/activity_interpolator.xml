@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zds_t.myapplication.animation.InterpolatorActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="AccelerateDecelerate"
+            android:onClick="doAccelerateDecelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Accelerate"
+            android:onClick="doAccelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Anticipate"
+            android:onClick="doAnticipate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="AnticipateOvershoot"
+            android:onClick="doAnticipateOvershoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Bounce"
+            android:onClick="doBounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Cycle"
+            android:onClick="doCycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Decelerate"
+            android:onClick="doDecelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Linear"
+            android:onClick="doLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Overshoot"
+            android:onClick="doOvershoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/divider_bg"
+        android:layout_width="10dp"
+        android:layout_height="100dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">爱哭的小喵喵</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="transition_book_img">transition_book_img</string>
+    <string name="title_activity_animator_set">AnimatorSetActivity</string>
+</resources>

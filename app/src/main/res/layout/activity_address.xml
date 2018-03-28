@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zds_t.myapplication.addressSelector.AddressActivity">
+
+    <Button
+        android:id="@+id/add_btn"
+        android:text="获取到下一级的数据"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.example.zds_t.myapplication.addressSelector.AddressView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.zds_t.myapplication.addressSelector.AddressView>
+
+</LinearLayout>

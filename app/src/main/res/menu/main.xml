@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/normal"
+          android:icon="@mipmap/ic_launcher_round"
+          app:showAsAction="collapseActionView"
+          android:title="默认"/>
+    <item android:id="@+id/liner"
+          android:icon="@mipmap/ic_launcher_round"
+          app:showAsAction="collapseActionView"
+          android:title="网格"/>
+    <item android:id="@+id/grider"
+          android:title="水平"
+          android:icon="@mipmap/ic_launcher_round"
+          app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/staggeredGrid"
+          android:title="瀑布"
+          android:icon="@mipmap/ic_launcher_round"
+          app:showAsAction="collapseActionView"/>
+</menu>

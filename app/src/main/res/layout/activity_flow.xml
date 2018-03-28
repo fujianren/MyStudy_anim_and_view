@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zds_t.myapplication.view.FlowActivity">
+
+    <com.example.zds_t.myapplication.view.FlowLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:background="#ff00ff"
+        android:layout_height="wrap_content">
+
+        TextView
+        style="@style/text_flag_01"
+        android:background="@drawable/flag_03"
+        android:text="Welcome"
+        android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="IT工程师"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="我真是可以的"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="你觉得呢"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="不要只知道挣钱"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="不要只知道挣钱"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="不要只知道挣钱"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="不要只知道挣钱"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="不要只知道挣钱"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing"
+            android:textColor="#43BBE7" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can"
+            android:textColor="#43BBE7" />
+
+
+
+    </com.example.zds_t.myapplication.view.FlowLayout>
+</LinearLayout>

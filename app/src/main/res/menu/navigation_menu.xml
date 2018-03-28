@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navigation_item_main"
+              android:title="主页"
+              android:icon="@mipmap/ic_launcher_round"/>
+        <item android:id="@+id/navigation_item_tl"
+              android:icon="@mipmap/ic_launcher_round"
+              android:title="MD输入框"/>
+        <item android:id="@+id/navigation_item_snackbar"
+              android:icon="@mipmap/ic_launcher_round"
+              android:title="Snackbar"/>
+    </group>
+</menu>
